@@ -104,8 +104,6 @@
     <Compile Include="Assets\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\GvrEditorMenu.cs" />
     <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
-    <Compile Include="Assets\GoogleVR\Editor\GvrHeadsetEditor.cs" />
-    <Compile Include="Assets\GoogleVR\Editor\InstantPreviewEditor.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioListenerEditor.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
@@ -365,6 +363,12 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="fbsdefines_cs">
+      <HintPath>/Users/Loki/Documents/UTAustin/VRGame/mobileVR/MeditationGallery/Assets/DaydreamRenderer/Plugins/fbsdefines_cs.dll</HintPath>
+    </Reference>
+    <Reference Include="FlatBuffers">
+      <HintPath>/Users/Loki/Documents/UTAustin/VRGame/mobileVR/MeditationGallery/Assets/DaydreamRenderer/Plugins/FlatBuffers.dll</HintPath>
+    </Reference>
     <Reference Include="Google.ProtocolBuffers">
       <HintPath>/Users/Loki/Documents/UTAustin/VRGame/mobileVR/MeditationGallery/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
     </Reference>
@@ -382,12 +386,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>/Users/Loki/Documents/UTAustin/VRGame/mobileVR/MeditationGallery/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="fbsdefines_cs">
-      <HintPath>/Users/Loki/Documents/UTAustin/VRGame/mobileVR/MeditationGallery/Assets/DaydreamRenderer/Plugins/fbsdefines_cs.dll</HintPath>
-    </Reference>
-    <Reference Include="FlatBuffers">
-      <HintPath>/Users/Loki/Documents/UTAustin/VRGame/mobileVR/MeditationGallery/Assets/DaydreamRenderer/Plugins/FlatBuffers.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
