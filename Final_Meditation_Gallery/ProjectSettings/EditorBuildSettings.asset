@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Yifan.unity
+    guid: 3273f7a00b93443238677b60df5df434
   m_configObjects: {}
