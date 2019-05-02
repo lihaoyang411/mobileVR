@@ -21,7 +21,7 @@ public class ChangeScene : MonoBehaviour
     }
 
     public void Hold() {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("DeStijl");
     }
 
     }
