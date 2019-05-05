@@ -8,6 +8,8 @@ using UnityEngine.EventSystems;
 [RequireComponent(typeof(EventTrigger))]
 public class ChangeScene : MonoBehaviour
 {
+    public int sceneindex;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,7 @@ public class ChangeScene : MonoBehaviour
     }
 
     public void Hold() {
-        SceneManager.LoadScene("DeStijl");
+        SceneManager.LoadScene(sceneindex);
     }
 
     }
