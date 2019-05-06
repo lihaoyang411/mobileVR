@@ -5025,30 +5025,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: naturePack_014
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -8.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5286
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5286
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5286
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.21
-      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.070091
@@ -5092,6 +5068,30 @@ PrefabInstance:
     - target: {fileID: 400002, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5286
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5286
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5286
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5469b8d5cb17ab42ad0affdfe745bd0, type: 3}
@@ -5624,6 +5624,7 @@ GameObject:
   - component: {fileID: 1728005771}
   - component: {fileID: 1728005770}
   - component: {fileID: 1728005769}
+  - component: {fileID: 1728005774}
   m_Layer: 0
   m_Name: Orb
   m_TagString: Untagged
@@ -5717,6 +5718,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1728005774
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728005768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1736650554
 PrefabInstance:
   m_ObjectHideFlags: 0
