@@ -4234,8 +4234,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Composition C was Mondrian\u2019s response to fundamentals behind political
-    and social consequences\n"
+  m_Text: The Nest is made of earth, stones, silver birch, and grass. It is located
+    in Lineber Heath, Germany.
 --- !u!222 &740201570
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7338,7 +7338,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The Composition C created by Piet Mondrian \rin De Stijl Movement 1935\r\n"
+  m_Text: "The Nest \ris created by Nils-Udo\r in 1978\r\n\n"
 --- !u!222 &1401507200
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9158,8 +9158,6 @@ GameObject:
   - component: {fileID: 1728005769}
   - component: {fileID: 1728005774}
   - component: {fileID: 1728005776}
-  - component: {fileID: 1728005775}
-  - component: {fileID: 1728005777}
   - component: {fileID: 1728005778}
   m_Layer: 0
   m_Name: Home
@@ -9268,19 +9266,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1728005775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728005768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef1db494ea33ddb4a8e7af272b91e6d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  customImage: {fileID: 1927832358}
 --- !u!135 &1728005776
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9294,19 +9279,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 4.2266407
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1728005777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728005768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177691d007260564b95d5b54c3e67367, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  customText: {fileID: 1442256296}
 --- !u!114 &1728005778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9872,8 +9844,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "planes of primary colors with black and white shows the fundamental essence
-    of nature \n"
+  m_Text: 'The Nest is that circling down into the comfort of Earth, there are berries
+    and blossoms filled with love and warmth
+
+'
 --- !u!222 &1835547377
 CanvasRenderer:
   m_ObjectHideFlags: 0
